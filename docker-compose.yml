@@ -2,7 +2,7 @@ version: "3.8"
 services:
   nginx:
     image: nginx
-    container_name: nginx
+    container_name: nginx2
     restart: always
     ports:
       - 80:80
