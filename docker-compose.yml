@@ -7,4 +7,4 @@ services:
     ports:
       - 80:80
     volumes:
-      - ${WORKSPACE}/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - C:\Resources\docker\jenkins\jenkins_home\workspace\helloworld-docker-blue-green/nginx/nginx.conf:/etc/nginx/nginx.conf
