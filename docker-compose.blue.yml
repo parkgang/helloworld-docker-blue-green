@@ -4,6 +4,5 @@ services:
   blue-green-server:
     build: .
     image: tomcat-cicd-image:practice
-    container_name: tomcat-cicd
     ports:
       - "10001:8080"
