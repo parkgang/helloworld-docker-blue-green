@@ -1,8 +1,7 @@
 version: "3.3"
 
 services:
-  blue-green-server:
+  tomcat:
     build: .
-    image: tomcat-cicd-image:practice
     ports:
-      - "10001:8080"
+      - 10001:8080

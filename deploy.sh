@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOCKER_APP_NAME=TEST
+DOCKER_APP_NAME=helloworld-docker-blue-green
 
 EXIST_BLUE=$(docker-compose -p ${DOCKER_APP_NAME}-blue -f docker-compose.blue.yml ps | grep Up)
 
